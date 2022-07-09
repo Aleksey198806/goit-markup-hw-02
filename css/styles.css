@@ -1,0 +1,43 @@
+/* цвет основного теккста #212121*/
+/* вторичный цвет текста 
+#757575*/
+/* белый #FFFFFF*/
+/* акцент #2196F3*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+.list {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+}
+
+/*site-nav*/
+
+.site-nav .link {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:fokus {
+  color: #2196f3;
+}
+
+/*section*/
+
+.section-title {
+  color: #212121;
+}
+
+/*work*/
+.work-list {
+}
