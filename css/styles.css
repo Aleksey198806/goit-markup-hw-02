@@ -24,6 +24,11 @@ body {
   color: var(--accent-text-color);
 }
 
+/*-----HERO-----*/
+.header {
+  background-color: #fff;
+}
+
 .header-nav .link {
   color: var(--accent-text-color);
   font-weight: 500;
@@ -37,16 +42,128 @@ body {
 .header-nav .link.curnet {
   color: var(--title-text-color);
 }
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4px;
+  color: var(--primary-text-kolor);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-text-color);
+}
+.header-tel {
+  font-size: 14px;
+  line-height: 1.4px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 
 .list {
   list-style: none;
 }
 
-/*Hero*/
+/*------Hero-----*/
+.hero {
+}
 .hero-title {
-  color: var(--title-text-color);
-  font-weight: 400;
+  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.hero-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-kolor);
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-text-color);
+}
+
+/*------benefits-----*/
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+.benefits-paragraf {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.1;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-kolor);
+}
+
+/*------examples-----*/
+
+.examples-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/*------team-----*/
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-job-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-kolor);
+}
+
+/*------Портфолиоhtml-----*/
+/*------filters-----*/
+.filtres-btn-curnet {
+  background: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #ffffff;
+}
+.filtres-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-text-color);
+}
+.filtres-btn-curnet:hover,
+.filtres-btn-curnet:focus {
+  color: var(--title-text-color);
 }
