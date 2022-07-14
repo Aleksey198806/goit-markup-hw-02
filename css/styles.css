@@ -39,7 +39,7 @@ body {
 }
 
 .header-nav .header-link {
-  color: var(--accent-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -48,8 +48,11 @@ body {
 .header-nav .header-link:focus {
   color: var(--accent-text-color);
 }
+.header-nav .header-link.curnets {
+  color: var(--accent-text-color);
+}
 .header-nav .header-link.curnet {
-  color: var(--title-text-color);
+  color: var(--accent-text-color);
 }
 .header-mail {
   font-weight: 500;
