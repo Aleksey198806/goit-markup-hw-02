@@ -12,15 +12,24 @@ body {
   font-family: Roboto, sans-serif;
 }
 /*logo*/
-
-.logo {
-  color: var(--primary-text-kolor);
-  font-family: Raleway, cursive;
-
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.logo:hover {
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-logo:hover {
   color: var(--accent-text-color);
 }
 
@@ -29,17 +38,17 @@ body {
   background-color: #fff;
 }
 
-.header-nav .link {
+.header-nav .header-link {
   color: var(--accent-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
 }
-.header-nav .link:hover,
-.header-nav .link:focus {
-  color: var(--title-text-color);
+.header-nav .header-link:hover,
+.header-nav .header-link:focus {
+  color: var(--accent-text-color);
 }
-.header-nav .link.curnet {
+.header-nav .header-link.curnet {
   color: var(--title-text-color);
 }
 .header-mail {
@@ -60,8 +69,23 @@ body {
   color: #757575;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .list {
   list-style: none;
+}
+.list {
+  text-decoration: none;
 }
 
 /*------Hero-----*/
@@ -151,19 +175,25 @@ body {
 /*------Портфолиоhtml-----*/
 /*------filters-----*/
 .filtres-btn-curnet {
-  background: var(--accent-text-color);
+  background: #2196f3;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: #ffffff;
 }
-.filtres-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+
+/*------Портфолио-----*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.filtres-btn-curnet:hover,
-.filtres-btn-curnet:focus {
-  color: var(--title-text-color);
+.portfolio-text-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.8;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-kolor);
 }
