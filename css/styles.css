@@ -258,6 +258,9 @@ color: var(--title-text-color);
 }
 
 /*------Портфолио-----*/
+.link{
+  text-decoration: none;
+}
 .portfolio-title {
 font-weight: 700;
 font-size: 18px;
