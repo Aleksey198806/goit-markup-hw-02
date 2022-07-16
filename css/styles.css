@@ -260,6 +260,7 @@ color: var(--title-text-color);
 /*------Портфолио-----*/
 .link{
   text-decoration: none;
+  color: var(--title-text-color);
 }
 .portfolio-title {
 font-weight: 700;
