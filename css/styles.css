@@ -49,6 +49,7 @@ body {
 /*-----HERO-----*/
 .header {
   background-color: #fff;
+  
 }
 
 .header-nav .header-link {
@@ -56,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .header-nav .header-link:hover,
 .header-nav .header-link:focus {
@@ -73,6 +75,7 @@ body {
   font-size: 14px;
   line-height: 1.4px;
   color: var(--primary-text-kolor);
+  text-decoration: none;
 }
 
 .header-mail:hover,
@@ -84,6 +87,7 @@ body {
   line-height: 1.4px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .visually-hidden {
@@ -205,6 +209,14 @@ body {
 .header-futer {
   background-color: #2f303a;
 }
+.address-location{
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration: none;
+  color: #ffffff;
+}
 .header-footermail,
 .header-footertel {
   font-weight: 400;
@@ -212,6 +224,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .header-footertel
 /*------Портфолиоhtml-----*/
